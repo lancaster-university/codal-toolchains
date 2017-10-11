@@ -15,6 +15,8 @@ RUN \
                               make                               \
                               build-essential                    \
                               gcc-arm-none-eabi                  \
+                              libstdc++-arm-none-eabi-newlib     \
+                              libnewlib-arm-none-eabi            \
                               ca-certificates                    \
                               git                                \
     && wget https://www.python.org/ftp/python/$PYTHON_VERSION/Python-$PYTHON_VERSION.tgz --no-check-certificate \
